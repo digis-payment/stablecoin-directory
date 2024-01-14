@@ -5,7 +5,7 @@
 This repository serves as a centralized resource for detailed information on stablecoins, including their blockchain addresses across various networks. 
 
 ## Resources
-- [Stablecoin Directory Website](#Your-Website-Link)
+- [Stablecoin Directory Website](https://digis-payment.github.io/stablecoin-directory/)
 - [Stablecoin JSON Data](https://github.com/digis-payment/stablecoin-directory/blob/main/stablecoins.json)
 
 ## Contribution Guidelines
