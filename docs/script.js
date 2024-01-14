@@ -24,7 +24,9 @@ function toLink(address, protocol) {
     case "polygon":
       return `https://polygonscan.com/token/${address}`;
     case "celo":
-      return `https://celoscan.io/token/${address}`
+      return `https://celoscan.io/token/${address}`;
+    case "base":
+       return `https://basescan.io/token/${address}`;
     default:
       return "#";
   }
