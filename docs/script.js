@@ -23,6 +23,8 @@ function toLink(address, protocol) {
       return `https://bscscan.com/token/${address}`;
     case "polygon":
       return `https://polygonscan.com/token/${address}`;
+    case "celo":
+      return `https://celoscan.io/token/${address}`
     default:
       return "#";
   }
