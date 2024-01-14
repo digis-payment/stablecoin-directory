@@ -1,0 +1,185 @@
+{
+  "USDT": {
+    "name": "Tether",
+    "website": "https://tether.to/",
+    "addresses": {
+      "ethereum": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "optimism": "0x94b008aa00579c1307b0ef2c499ad98a8ce58e58",
+      "arbitrum": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+      "tron": "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
+      "solana": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+      "polygon": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f"
+    }
+  },
+  "DAI": {
+    "name": "DAI",
+    "website": "",
+    "addresses": {
+      "ethereum": "0x6b175474e89094c44da98b954eedeac495271d0f"
+    }
+  },
+  "USDC": {
+    "name": "USD Coin",
+    "website": "https://www.circle.com/en/usdc",
+    "addresses": {
+      "ethereum": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "optimism": "0x0b2c639c533813f4aa9d7837caf62653d097ff85",
+      "arbitrum": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+      "tron": "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
+      "polygon": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
+      "solana": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+    }
+  },
+  "BUSD": {
+    "name": "Binance USD",
+    "website": "https://www.binance.com/en/research/projects/binance-usd",
+    "addresses": []
+  },
+  "GLO": {
+    "name": "Glo Dollar",
+    "website": "https://www.glodollar.org/",
+    "addresses": {
+      "ethereum": "0x4f604735c1cf31399c6e711d5962b2b3e0225ad3",
+      "arbitrum": "0x4f604735c1cf31399c6e711d5962b2b3e0225ad3",
+      "optimism": "0x4F604735c1cF31399C6E711D5962b2B3E0225AD3"
+    }
+  },
+  "EUR CV": {
+    "name": "EUR CoinVertible",
+    "website": "https://www.sgforge.com/product/coinvertible/",
+    "addresses": {
+      "ethereum": "0x5F7827FDeb7c20b443265Fc2F40845B715385Ff2"
+    }
+  },
+  "Crypto Franc": {
+    "name": "CryptoFranc",
+    "website": "https://www.bitcoinsuisse.com/cryptofranc",
+    "addresses": {
+      "ethereum": "0xb4272071ecadd69d933adcd19ca99fe80664fc08"
+    }
+  },
+  "CHFP": {
+    "name": "SuperFrank",
+    "website": "https://superfrank.io/",
+    "addresses": {
+      "ethereum": "0x3f0c858c26775df75e45934b189154c436bd7335"
+    }
+  },
+  "jCHF": {
+    "name": "Jarvis Synthetic Swiss Franc",
+    "website": "https://jarvis.network/",
+    "addresses": {
+      "polygon": "0xbD1463F02f61676d53fd183C2B19282BFF93D099",
+      "bsc": "0x7c869b5A294b1314E985283d01C702B62224a05f",
+      "avax": "0x2d5563da42b06fbbf9c67b7dc073cf6a7842239e"
+    }
+  },
+  "jGBP": {
+    "name": "Jarvis Synthetic British Pound",
+    "website": "https://jarvis.network/",
+    "addresses": {
+      "ethereum": "0x7409856cae628f5d578b285b45669b36e7005283",
+      "polygon": "0x767058F11800FBA6A682E73A6e79ec5eB74Fac8c",
+      "bsc": "0x048E9b1ddF9EBbb224812372280e94Ccac443f9e"
+    }
+  },
+  "jCAD": {
+    "name": "Jarvis Synthetic Canadian Dollar",
+    "website": "https://jarvis.network/",
+    "addresses": {
+      "ethereum": "0x8ca194A3b22077359b5732DE53373D4afC11DeE3"
+    }
+  },
+  "jMXN": {
+    "name": "Jarvis Synthetic Mexican Peso",
+    "website": "https://jarvis.network/",
+    "addresses": {
+      "polygon": "0xbd1fe73e1f12bd2bc237de9b626f056f21f86427"
+    }
+  },
+  "jCOP": {
+    "name": "Jarvis Synthetic Colombian Peso",
+    "website": "https://jarvis.network/",
+    "addresses": {
+      "polygon": "0xE6d222caAed5F5DD73A9713AC91C95782e80ACBf"
+    }
+  },
+  "jKRW": {
+    "name": "Jarvis Synthetic South Korean Won",
+    "website": "https://jarvis.network/",
+    "addresses": {
+      "polygon": "0xa22f6bc96f13bcc84df36109c973d3c0505a067e"
+    }
+  },
+  "jCNY": {
+    "name": "Jarvis Synthetic Chinese Yuan",
+    "website": "https://jarvis.network/",
+    "addresses": {
+      "polygon": "0x84526c812d8f6c4fd6c1a5b68713aff50733e772"
+    }
+  },
+  "jJPY": {
+    "name": "Jarvis Synthetic Japanese Yen",
+    "website": "https://jarvis.network/",
+    "addresses": {
+      "polygon": "0x8343091F2499FD4b6174A46D067A920a3b851FF9"
+    }
+  },
+  "jPHP": {
+    "name": "Jarvis Synthetic Philippine Peso",
+    "addresses": {
+      "polygon": "0x486880FB16408b47f928F472f57beC55AC6089d1"
+    }
+  },
+  "jSGD": {
+    "name": "Jarvis Synthetic Singapore Dollar",
+    "website": "https://jarvis.network/",
+    "addresses": {
+      "polygon": "0xa926db7a4CC0cb1736D5ac60495ca8Eb7214B503"
+    }
+  },
+  "jAUD": {
+    "name": "Jarvis Synthetic Australian Dollar",
+    "website": "https://jarvis.network/",
+    "addresses": {
+      "polygon": "0xCB7F1Ef7246D1497b985f7FC45A1A31F04346133"
+    }
+  },
+  "jNZD": {
+    "name": "Jarvis Synthetic New Zealand Dollar",
+    "website": "https://jarvis.network/",
+    "addresses": {
+      "polygon": "0x6b526Daf03B4C47AF2bcc5860B12151823Ff70E0"
+    }
+  },
+  "jNGN": {
+    "name": "Jarvis Synthetic Nigerian Naira",
+    "website": "https://jarvis.network/",
+    "addresses": {
+      "bsc": "0x2e3E3e3CAD5478F63549b7207c860A7f8FEDf4C9"
+    }
+  },
+  "jZAR": {
+    "name": "",
+    "website": "https://jarvis.network/",
+    "addresses": {
+      "bsc": "0x6B8b9AE0627a7622c593A1696859ca753c61A670"
+    }
+  },
+  "DRAM": {
+    "name": "DRAM",
+    "website": "https://cointelegraph.com/news/abu-dhabi-firm-launches-dirham-backed-stablecoin",
+    "addresses": {
+      "ethereum": "0x5216409e5266cf520868545d6674d1f0046fdd9e",
+      "bsc": "0x36de0f01b7806ab72541f34d86b4033262ebfc62",
+      "arbitrum": "0x5216409e5266cf520868545d6674d1f0046fdd9e"
+    }
+  },
+  "EURT": {
+    "name": "Euro Tether",
+    "website": "https://tether.to/en/transparency/#eurt",
+    "addresses": {
+      "ethereum": "0xC581b735A1688071A1746c968e0798D642EDE491"
+    }
+  }
+}
