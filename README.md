@@ -6,7 +6,7 @@ This repository serves as a centralized resource for detailed information on sta
 
 ## Resources
 - [Stablecoin Directory Website](https://digis-payment.github.io/stablecoin-directory/)
-- [Stablecoin JSON Data](https://github.com/digis-payment/stablecoin-directory/blob/main/stablecoins.json)
+- [Stablecoin JSON Data](https://github.com/digis-payment/stablecoin-directory/blob/main/docs/stablecoins.json)
 
 ## Contribution Guidelines
 We welcome contributions to enhance the directory's accuracy and comprehensiveness. If you wish to contribute, please follow these guidelines:
