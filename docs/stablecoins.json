@@ -8,14 +8,16 @@
       "arbitrum": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
       "tron": "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
       "solana": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
-      "polygon": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f"
+      "polygon": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+      "celo": "0x617f3112bf5397d0467d315cc709ef968d9ba546"
     }
   },
   "DAI": {
     "name": "DAI",
     "website": "",
     "addresses": {
-      "ethereum": "0x6b175474e89094c44da98b954eedeac495271d0f"
+      "ethereum": "0x6b175474e89094c44da98b954eedeac495271d0f",
+      "celo": "0xe4fe50cdd716522a56204352f00aa110f731932d"
     }
   },
   "USDC": {
@@ -27,7 +29,8 @@
       "arbitrum": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
       "tron": "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
       "polygon": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
-      "solana": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+      "solana": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "celo": "0xef4229c8c3250c675f21bcefa42f58efbff6002a"
     }
   },
   "BUSD": {
@@ -41,7 +44,8 @@
     "addresses": {
       "ethereum": "0x4f604735c1cf31399c6e711d5962b2b3e0225ad3",
       "arbitrum": "0x4f604735c1cf31399c6e711d5962b2b3e0225ad3",
-      "optimism": "0x4F604735c1cF31399C6E711D5962b2B3E0225AD3"
+      "optimism": "0x4F604735c1cF31399C6E711D5962b2B3E0225AD3",
+      "celo": "0x4f604735c1cf31399c6e711d5962b2b3e0225ad3"
     }
   },
   "EUR CV": {
