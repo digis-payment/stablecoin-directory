@@ -57,11 +57,18 @@
       "ethereum": "0x5F7827FDeb7c20b443265Fc2F40845B715385Ff2"
     }
   },
-  "Crypto Franc": {
+  "XCHF": {
     "name": "CryptoFranc",
     "website": "https://www.bitcoinsuisse.com/cryptofranc",
     "addresses": {
       "ethereum": "0xb4272071ecadd69d933adcd19ca99fe80664fc08"
+    }
+  },
+  "ZCHF":{
+    "name": "Frankencoin",
+    "website":"https://www.frankencoin.com/",
+    "addresses": {
+      "ethereum": "0xB58E61C3098d85632Df34EecfB899A1Ed80921cB"
     }
   },
   "CHFP": {
