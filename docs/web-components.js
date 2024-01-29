@@ -36,7 +36,9 @@ class CoinItem extends HTMLElement {
             </style>
             <div class="coin-item">
                 <h2>${coin.name} (${coin.symbol})</h2>
-                <a href="${coin.website}" target="_blank">Website</a>
+                <a href="${coin.website}" target="_blank">Website</a> - <span>${
+      coin.currency
+    }</span>
                 <div class="addresses">
                     ${Object.entries(coin.addresses)
                       .map(
@@ -149,9 +151,11 @@ class CurrencyList extends HTMLElement {
             `<li data-code="${
               currency.code
             }" class="flex items-center mr-4 py-1">
-                 <button class="p-2 rounded bg-blue-200 text-gray-600 hover:bg-blue-400">${this.getFlagEmoji(
-                   currency.country
-                 )} <span class="ml-2">${currency.code}</span></button></li>` // Add margin for spacing between items
+                 <button  title="${
+                   currency.name
+                 }"  class="p-2 rounded bg-blue-200 text-gray-600 hover:bg-blue-400">${this.getFlagEmoji(
+              currency.country
+            )} <span class="ml-2">${currency.code}</span></button></li>` // Add margin for spacing between items
         )
         .join("") +
       `</ul>`;
