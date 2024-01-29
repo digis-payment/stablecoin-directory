@@ -7,53 +7,65 @@ class CoinItem extends HTMLElement {
   set coin(coin) {
     const template = document.createElement("template");
     template.innerHTML = `
-            <style>
-                .coin-item {
-                    background-color: #1e293b; /* Dark background */
-                    padding: 15px;
-                    border-radius: 10px;
-                    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-                    color: #ffffff;
-                    margin-bottom: 10px;
-                }
-                .coin-item h2 {
-                    margin: 0 0 10px 0;
-                    color: #3b82f6; /* Light blue for the title */
-                }
-                a {
-                    color: #f59e0b; /* Orange link */
-                    text-decoration: none;
-                }
-                .addresses {
-                    margin-top: 10px;
-                }
-                .address {
-                    background-color: #334155; /* Slightly lighter background for addresses */
-                    padding: 5px;
-                    border-radius: 5px;
-                    margin-bottom: 5px;
-                }
-            </style>
-            <div class="coin-item">
-                <h2>${coin.name} (${coin.symbol})</h2>
-                <a href="${coin.website}" target="_blank">Website</a> - <span>${
-      coin.currency
-    }</span>
-                <div class="addresses">
-                    ${Object.entries(coin.addresses)
-                      .map(
-                        ([protocol, address]) => `
-                        <div class="address">${protocol.toUpperCase()}: <a target="_blank" href="${toLink(
-                          address,
-                          protocol
-                        )}""><code>${formatAddress(address)}</code></a>
-                       
-                        </div>
-                    `
-                      )
-                      .join("")}
-                </div>
+    <style>
+    .coin-item {
+        background-color: #1e293b; /* Dark background */
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        color: #ffffff;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .coin-item h2 {
+        margin: 0 0 10px 0;
+        color: #3b82f6; /* Light blue for the title */
+    }
+    a {
+        color: #f59e0b; /* Orange link */
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+    a:hover {
+        color: #d97706; /* Darker orange on hover */
+    }
+    .coin-details {
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .addresses {
+        margin-top: 10px;
+    }
+    .address {
+        background-color: #334155; /* Slightly lighter background for addresses */
+        padding: 5px;
+        border-radius: 5px;
+        margin-bottom: 5px;
+    }
+</style>
+<div class="coin-item">
+    <h2>${coin.name} (${coin.symbol})</h2>
+    <div class="coin-details">
+        <a href="${coin.website}" target="_blank">Website</a>
+        <span>Currency: ${coin.currency}</span>
+    </div>
+    <div class="addresses">
+        ${Object.entries(coin.addresses)
+          .map(
+            ([protocol, address]) => `
+            <div class="address">${protocol.toUpperCase()}: <a target="_blank" href="${toLink(
+              address,
+              protocol
+            )}""><code>${formatAddress(address)}</code></a>
             </div>
+        `
+          )
+          .join("")}
+    </div>
+</div>
         `;
 
     this.shadowRoot.appendChild(template.content.cloneNode(true));
