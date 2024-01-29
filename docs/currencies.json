@@ -1,0 +1,18 @@
+[
+  { "code": "USD", "country": "US", "name": "United States Dollar" },
+  { "code": "EUR", "country": "EU", "name": "Euro" },
+  { "code": "GBP", "country": "GB", "name": "British Pound Sterling" },
+  { "code": "CHF", "country": "CH", "name": "Swiss Franc" },
+  { "code": "CAD", "country": "CA", "name": "Canadian Dollar" },
+  { "code": "MXN", "country": "MX", "name": "Mexican Peso" },
+  { "code": "COP", "country": "CO", "name": "Colombian Peso" },
+  { "code": "KRW", "country": "KR", "name": "South Korean Won" },
+  { "code": "CNY", "country": "CN", "name": "Chinese Yuan" },
+  { "code": "JPY", "country": "JP", "name": "Japanese Yen" },
+  { "code": "PHP", "country": "PH", "name": "Philippine Peso" },
+  { "code": "SGD", "country": "SG", "name": "Singapore Dollar" },
+  { "code": "AUD", "country": "AU", "name": "Australian Dollar" },
+  { "code": "NZD", "country": "NZ", "name": "New Zealand Dollar" },
+  { "code": "NGN", "country": "NG", "name": "Nigerian Naira" },
+  { "code": "ZAR", "country": "ZA", "name": "South African Rand" }
+]

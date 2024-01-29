@@ -1,5 +1,6 @@
 {
   "USDT": {
+    "currency": "USD",
     "name": "Tether",
     "website": "https://tether.to/",
     "addresses": {
@@ -13,14 +14,16 @@
     }
   },
   "DAI": {
+    "currency": "USD",
     "name": "DAI",
-    "website": "",
+    "website": "https://makerdao.com/en/",
     "addresses": {
       "ethereum": "0x6b175474e89094c44da98b954eedeac495271d0f",
       "celo": "0xe4fe50cdd716522a56204352f00aa110f731932d"
     }
   },
   "USDC": {
+    "currency": "USD",
     "name": "USD Coin",
     "website": "https://www.circle.com/en/usdc",
     "addresses": {
@@ -34,11 +37,13 @@
     }
   },
   "BUSD": {
+    "currency": "USD",
     "name": "Binance USD",
     "website": "https://www.binance.com/en/research/projects/binance-usd",
     "addresses": []
   },
   "GLO": {
+    "currency": "USD",
     "name": "Glo Dollar",
     "website": "https://www.glodollar.org/",
     "addresses": {
@@ -51,6 +56,7 @@
     }
   },
   "EUR CV": {
+    "currency": "EUR",
     "name": "EUR CoinVertible",
     "website": "https://www.sgforge.com/product/coinvertible/",
     "addresses": {
@@ -58,20 +64,23 @@
     }
   },
   "XCHF": {
+    "currency": "CHF",
     "name": "CryptoFranc",
     "website": "https://www.bitcoinsuisse.com/cryptofranc",
     "addresses": {
       "ethereum": "0xb4272071ecadd69d933adcd19ca99fe80664fc08"
     }
   },
-  "ZCHF":{
+  "ZCHF": {
+    "currency": "CHF",
     "name": "Frankencoin",
-    "website":"https://www.frankencoin.com/",
+    "website": "https://www.frankencoin.com/",
     "addresses": {
       "ethereum": "0xB58E61C3098d85632Df34EecfB899A1Ed80921cB"
     }
   },
   "CHFP": {
+    "currency": "CHF",
     "name": "SuperFrank",
     "website": "https://superfrank.io/",
     "addresses": {
@@ -79,6 +88,7 @@
     }
   },
   "jCHF": {
+    "currency": "CHF",
     "name": "Jarvis Synthetic Swiss Franc",
     "website": "https://jarvis.network/",
     "addresses": {
@@ -88,6 +98,7 @@
     }
   },
   "jGBP": {
+    "currency": "GBP",
     "name": "Jarvis Synthetic British Pound",
     "website": "https://jarvis.network/",
     "addresses": {
@@ -97,6 +108,7 @@
     }
   },
   "jCAD": {
+    "currency": "CAD",
     "name": "Jarvis Synthetic Canadian Dollar",
     "website": "https://jarvis.network/",
     "addresses": {
@@ -104,6 +116,7 @@
     }
   },
   "jMXN": {
+    "currency": "MXN",
     "name": "Jarvis Synthetic Mexican Peso",
     "website": "https://jarvis.network/",
     "addresses": {
@@ -111,6 +124,7 @@
     }
   },
   "jCOP": {
+    "currency": "COP",
     "name": "Jarvis Synthetic Colombian Peso",
     "website": "https://jarvis.network/",
     "addresses": {
@@ -118,6 +132,7 @@
     }
   },
   "jKRW": {
+    "currency": "KRW",
     "name": "Jarvis Synthetic South Korean Won",
     "website": "https://jarvis.network/",
     "addresses": {
@@ -125,6 +140,7 @@
     }
   },
   "jCNY": {
+    "currency": "CNY",
     "name": "Jarvis Synthetic Chinese Yuan",
     "website": "https://jarvis.network/",
     "addresses": {
@@ -132,6 +148,7 @@
     }
   },
   "jJPY": {
+    "currency": "JPY",
     "name": "Jarvis Synthetic Japanese Yen",
     "website": "https://jarvis.network/",
     "addresses": {
@@ -139,12 +156,14 @@
     }
   },
   "jPHP": {
+    "currency": "PHP",
     "name": "Jarvis Synthetic Philippine Peso",
     "addresses": {
       "polygon": "0x486880FB16408b47f928F472f57beC55AC6089d1"
     }
   },
   "jSGD": {
+    "currency": "SGD",
     "name": "Jarvis Synthetic Singapore Dollar",
     "website": "https://jarvis.network/",
     "addresses": {
@@ -152,6 +171,7 @@
     }
   },
   "jAUD": {
+    "currency": "AUD",
     "name": "Jarvis Synthetic Australian Dollar",
     "website": "https://jarvis.network/",
     "addresses": {
@@ -159,6 +179,7 @@
     }
   },
   "jNZD": {
+    "currency": "NZD",
     "name": "Jarvis Synthetic New Zealand Dollar",
     "website": "https://jarvis.network/",
     "addresses": {
@@ -166,6 +187,7 @@
     }
   },
   "jNGN": {
+    "currency": "NGN",
     "name": "Jarvis Synthetic Nigerian Naira",
     "website": "https://jarvis.network/",
     "addresses": {
@@ -173,6 +195,7 @@
     }
   },
   "jZAR": {
+    "currency": "ZAR",
     "name": "Jarvis Synthetic South African Rand",
     "website": "https://jarvis.network/",
     "addresses": {
@@ -180,6 +203,7 @@
     }
   },
   "DRAM": {
+    "currency": "AED",
     "name": "DRAM",
     "website": "https://cointelegraph.com/news/abu-dhabi-firm-launches-dirham-backed-stablecoin",
     "addresses": {
@@ -189,6 +213,7 @@
     }
   },
   "EURT": {
+    "currency": "EUR",
     "name": "Euro Tether",
     "website": "https://tether.to/en/transparency/#eurt",
     "addresses": {

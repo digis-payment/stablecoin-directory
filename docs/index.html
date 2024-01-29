@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Stable Coins List</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./web-components.js"></script>
     <script src="./script.js"></script>
     <link
       rel="stylesheet"
@@ -17,19 +18,21 @@
   <body class="font-sans bg-gray-800 text-white">
     <header class="text-center p-6">
       <h1 class="text-3xl font-bold mb-2">Stablecoin Directory</h1>
-      <p class="text-xl">
-        List of Stablecoins and Their Blockchain Addresses
-      </p>
+      <p class="text-xl">List of Stablecoins and Their Blockchain Addresses</p>
     </header>
 
     <main class="container mx-auto p-4">
+      <currency-list currencies="[]"></currency-list>
       <coin-list class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         <!-- Coin items will be populated here -->
       </coin-list>
     </main>
 
     <footer class="text-center p-4 mt-6 border-t border-gray-700">
-      <p>&copy; 2024 Stablecoin Directory by <a href="https://digis.io">Digis</a>. All rights reserved</p>
+      <p>
+        &copy; 2024 Stablecoin Directory by
+        <a href="https://digis.io">Digis</a>. All rights reserved
+      </p>
       <a
         href="https://github.com/digis-payment/stablecoin-directory"
         target="_blank"
@@ -40,7 +43,13 @@
     </footer>
 
     <script>
-      loadStableCoins();
+      document.addEventListener("DOMContentLoaded", load);
+
+      document.addEventListener("currencySelected", (event) => {
+        console.log("Currency selected:", event.detail.code);
+        const coinsComp = document.querySelector("coin-list");
+        coinsComp.filterCurrency = event.detail.code;
+      });
     </script>
   </body>
 </html>
